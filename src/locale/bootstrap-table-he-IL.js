@@ -24,19 +24,19 @@ $.fn.bootstrapTable.locales['he-IL'] = $.fn.bootstrapTable.locales['he'] = {
     return `מציג ${pageFrom} עד ${pageTo} מ-${totalRows} שורות`
   },
   formatSRPaginationPreText () {
-    return 'previous page'
+    return 'העמוד הקודם'
   },
   formatSRPaginationPageText (page) {
     return `to page ${page}`
   },
   formatSRPaginationNextText () {
-    return 'next page'
+    return 'העמוד הבא'
   },
   formatDetailPagination (totalRows) {
     return `Showing ${totalRows} rows`
   },
   formatClearSearch () {
-    return 'Clear Search'
+    return 'נקה חיפוש'
   },
   formatSearch () {
     return 'חיפוש'
@@ -72,13 +72,13 @@ $.fn.bootstrapTable.locales['he-IL'] = $.fn.bootstrapTable.locales['he'] = {
     return 'Toggle all'
   },
   formatFullscreen () {
-    return 'Fullscreen'
+    return 'מסך מלא'
   },
   formatAllRows () {
     return 'הכל'
   },
   formatAutoRefresh () {
-    return 'Auto Refresh'
+    return 'רענון אוטומטי'
   },
   formatExport () {
     return 'Export data'
@@ -90,7 +90,7 @@ $.fn.bootstrapTable.locales['he-IL'] = $.fn.bootstrapTable.locales['he'] = {
     return 'Advanced search'
   },
   formatAdvancedCloseButton () {
-    return 'Close'
+    return 'סגור'
   },
   formatFilterControlSwitch () {
     return 'Hide/Show controls'
